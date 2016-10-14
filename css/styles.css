@@ -1,0 +1,16 @@
+.name {
+  text-align: center;
+
+  font-size: 50px;
+  text-shadow: 2px 2px 8px #359768;
+  background-color: #d9f2e6;
+  border: 3px solid #a0dec0;
+  padding: 10px;
+  border-radius: 15px;
+  width: 600px;
+  margin: auto;
+}
+
+img {
+border-radius: 15px;
+}
