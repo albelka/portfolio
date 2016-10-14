@@ -12,11 +12,14 @@ body {
   border-radius: 15px;
   width: 600px;
   margin: auto;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
 img {
 border-radius: 15px;
 box-shadow: black;
+float: left;
 }
 
 .projects {
@@ -29,7 +32,8 @@ box-shadow: black;
   padding: 10px;
   border-radius: 15px;
   width: 1000px;
-  margin: 8%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .projects h1 {
@@ -64,20 +68,19 @@ a:active {
 }
 
 .small li {
-  display:inline-block;
-  vertical-align: top;
   background-color: #d9948c;
   font-size: 16px;
   padding: 6px;
-  padding-left: 10px;
-  padding-right: 15px;
-  margin: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: auto
   border: none;
   width: 60%;
+  ali
 }
 
 .me {
-  text-align: center;
+  text-align: left;
   font-size: 50px;
   text-shadow: 2px 2px 8px #d17a7a;
   background: url("https://pixabay.com/static/uploads/photo/2015/03/23/15/59/the-background-686237_960_720.jpg");
@@ -85,6 +88,15 @@ a:active {
   border: 3px solid #cc6600;
   padding: 10px;
   border-radius: 15px;
-  width: 900px;
+  width: 400px;
   margin: 8%;
+}
+
+.me li {
+  font-size: 16px;
+  padding: 6px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: none;
+  width: 60%;
 }
