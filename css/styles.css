@@ -3,7 +3,7 @@ body {
 }
 .name {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   text-shadow: 2px 2px 8px grey;
   background: url("https://pixabay.com/static/uploads/photo/2014/05/26/14/45/rain-354617_960_720.jpg");
   box-shadow: 10px 10px 5px black;
@@ -15,7 +15,18 @@ body {
   overflow: hidden;
   margin-top: 20px;
 }
+.wishingandhoping {
+  font-style: italic;
+}
 
+#title{
+  padding-top: 5px;
+}
+
+p {
+  font-size: 32px;
+  padding-top: 20px;
+}
 img {
 border-radius: 15px;
 box-shadow: black;
