@@ -1,9 +1,12 @@
+body {
+  background: url("https://pixabay.com/static/uploads/photo/2013/04/03/12/41/roof-99895_960_720.jpg");
+}
 .name {
   text-align: center;
   font-size: 50px;
-  text-shadow: 2px 2px 8px #359768;
-  background-color: #d9f2e6;
-  box-shadow: 10px 10px 5px #d1d1e0;
+  text-shadow: 2px 2px 8px grey;
+  background: url("https://pixabay.com/static/uploads/photo/2014/05/26/14/45/rain-354617_960_720.jpg");
+  box-shadow: 10px 10px 5px black;
   border: 3px solid #a0dec0;
   padding: 10px;
   border-radius: 15px;
@@ -13,26 +16,27 @@
 
 img {
 border-radius: 15px;
+box-shadow: black;
 }
 
 .projects {
-  text-align: left;
-  font-size: 16px;
+  text-align: center;
+  font-size: 50px;
   text-shadow: 2px 2px 8px #d17a7a;
-  background-color: #f2d9d9;
-  box-shadow: 10px 10px 5px #d1d1e0;
+  background: url("https://pixabay.com/static/uploads/photo/2016/01/23/07/57/background-1157112_960_720.jpg");
+  box-shadow: 10px 10px 5px black;
   border: 3px solid #983434;
   padding: 10px;
   border-radius: 15px;
-  width: 900px;
+  width: 1000px;
   margin: 8%;
 }
 
 .projects h1 {
   text-align: center;
 }
-a:link{
-  color: grey;
+a:link {
+  color: orange;
 }
 
 a:hover {
@@ -45,4 +49,42 @@ a:visited {
 
 a:active {
   color: #4c1a1a;
+}
+
+.projects li {
+  background-color: #ffe6cc;
+  font-size: 20px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin: 20px;
+  border: solid black;
+  border-radius: 6px;
+  width: 30%;
+}
+
+.small li {
+  display:inline-block;
+  vertical-align: top;
+  background-color: #d9948c;
+  font-size: 16px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin: 20px;
+  border: none;
+  width: 60%;
+}
+
+.me {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 8px #d17a7a;
+  background: url("https://pixabay.com/static/uploads/photo/2015/03/23/15/59/the-background-686237_960_720.jpg");
+  box-shadow: 10px 10px 5px black;
+  border: 3px solid #cc6600;
+  padding: 10px;
+  border-radius: 15px;
+  width: 900px;
+  margin: 8%;
 }
