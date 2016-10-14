@@ -43,6 +43,7 @@ float: left;
   padding: 10px;
   border-radius: 15px;
   width: 1000px;
+  height: 400px;
   margin: auto;
   margin-top: 50px;
 }
@@ -50,6 +51,7 @@ float: left;
 .projects h1 {
   text-align: center;
 }
+
 a:link {
   color: orange;
 }
@@ -74,7 +76,6 @@ a:active {
   margin: 20px;
   border: solid black;
   border-radius: 6px;
-
   width: 30%;
 }
 
